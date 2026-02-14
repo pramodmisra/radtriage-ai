@@ -1,0 +1,20 @@
+# RadTriage AI — Dependencies
+# MedGemma Impact Challenge
+
+# Core ML
+torch>=2.1.0
+transformers>=4.45.0
+accelerate>=0.25.0
+
+# Image processing
+Pillow>=10.0.0
+pydicom>=2.4.0
+
+# Web app
+gradio>=4.0.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Utilities
+pydantic>=2.5.0
+python-multipart>=0.0.6
