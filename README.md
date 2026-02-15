@@ -5,9 +5,13 @@
 > Built with [MedGemma](https://huggingface.co/google/medgemma-4b-it) from Google's Health AI Developer Foundations (HAI-DEF)
 > for the [MedGemma Impact Challenge](https://www.kaggle.com/competitions/med-gemma-impact-challenge)
 
-[![Demo](https://img.shields.io/badge/Demo-HuggingFace%20Spaces-blue)](https://huggingface.co/spaces/YOUR_USERNAME/radtriage-ai)
+[![Demo](https://img.shields.io/badge/Demo-HuggingFace%20Spaces-blue)](https://huggingface.co/spaces/pramodmisra/radtriage-ai)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
 
+## Links
+- **Kaggle Notebook:** https://www.kaggle.com/code/pramodmisra2020/radtriage-ai-radiology-triage-pipeline
+- **Competition:** https://www.kaggle.com/competitions/med-gemma-impact-challenge
+- **Video Demo:** Coming soon
 ---
 
 ## What is RadTriage AI?
