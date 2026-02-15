@@ -119,9 +119,9 @@ If you use this work, please cite:
 ```bibtex
 @software{radtriage_ai_2026,
   title={RadTriage AI: Multimodal Radiology Triage & Report Drafting},
-  author={[Your Name]},
+  author={[Pramod Misra]},
   year={2026},
-  url={https://github.com/YOUR_USERNAME/radtriage-ai}
+  url={https://github.com/pramodmisra/radtriage-ai}
 }
 ```
 
