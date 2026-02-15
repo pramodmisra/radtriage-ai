@@ -48,7 +48,7 @@ Clinical Info ─┘          │                                      │
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/radtriage-ai.git
+git clone https://github.com/pramodmisra/radtriage-ai.git
 cd radtriage-ai
 pip install -r requirements.txt
 ```
@@ -81,15 +81,12 @@ docker run -p 7860:7860 --gpus all radtriage-ai
 radtriage-ai/
 ├── radtriage_pipeline.py    # Core two-pass pipeline
 ├── app.py                   # Gradio demo application
-├── radtriage-ui.jsx         # React clinical UI prototype
 ├── requirements.txt         # Python dependencies
 ├── Dockerfile               # Container deployment
-├── PROJECT_PLAN.md          # Full architecture documentation
-├── KAGGLE_WRITEUP.md        # Competition writeup
-└── examples/                # Sample images and outputs
-    ├── chest_xray_sample.json
-    ├── ct_head_sample.json
-    └── mri_brain_sample.json
+├── LICENSE                  # CC BY 4.0
+├── README.md
+└── results/
+    └── pipeline_results.json  # Sample pipeline outputs
 ```
 
 ## Supported Modalities
