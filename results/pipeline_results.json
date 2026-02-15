@@ -1,0 +1,220 @@
+[
+  {
+    "case": {
+      "path": "/kaggle/input/datasets/organizations/nih-chest-xrays/sample/sample/images/00006199_010.png",
+      "indication": "Shortness of breath and productive cough x 3 days"
+    },
+    "findings": {
+      "modality_detected": "chest x-ray",
+      "anatomical_region": "chest",
+      "image_quality": "adequate",
+      "quality_issues": [],
+      "comparison_available": false,
+      "findings": [
+        {
+          "id": 1,
+          "description": "There is increased opacity in the right lower lung field, potentially representing consolidation or atelectasis.",
+          "location": "right lower lung field",
+          "severity": "moderate",
+          "confidence": 0.8
+        },
+        {
+          "id": 2,
+          "description": "The heart size appears mildly enlarged.",
+          "location": "cardiothoracic silhouette",
+          "severity": "mild",
+          "confidence": 0.6
+        },
+        {
+          "id": 3,
+          "description": "There are lines and tubes present, likely representing medical devices.",
+          "location": "various locations",
+          "severity": "normal",
+          "confidence": 0.9
+        }
+      ],
+      "overall_impression_category": "abnormal",
+      "missing_context": [
+        "Prior imaging for comparison",
+        "Complete clinical history"
+      ]
+    },
+    "report": "EXAMINATION: Chest X-ray\n\nCLINICAL INDICATION: Shortness of breath and productive cough x 3 days\n\nCOMPARISON: None available\n\nFINDINGS:\n1.  There is increased opacity in the right lower lung field, potentially representing consolidation or atelectasis.\n2.  The heart size appears mildly enlarged.\n3.  There are lines and tubes present, likely representing medical devices.\n\nIMPRESSION:\n1.  Increased opacity in the right lower lung field, potentially representing consolidation or atelectasis.\n2.  Mild cardiomegaly.\n3.  Lines and tubes present, likely representing medical devices.\n\nRECOMMENDATION: Consider further evaluation with CT chest to better characterize the right lower lung opacity.\n",
+    "triage": "URGENT",
+    "time_sensitivity": "Within 2-4 hours",
+    "warnings": [],
+    "pass1_time": 258.7563908100128,
+    "pass2_time": 129.97711825370789
+  },
+  {
+    "case": {
+      "path": "/kaggle/input/datasets/organizations/nih-chest-xrays/sample/sample/images/00001043_004.png",
+      "indication": "Chest pain, rule out acute coronary syndrome"
+    },
+    "findings": {
+      "modality_detected": "Chest X-ray",
+      "anatomical_region": "Chest",
+      "image_quality": "adequate",
+      "quality_issues": [],
+      "comparison_available": false,
+      "findings": [
+        {
+          "id": 1,
+          "description": "The lungs appear clear bilaterally.",
+          "location": "Lungs",
+          "severity": "normal",
+          "confidence": 0.95
+        },
+        {
+          "id": 2,
+          "description": "The heart size is within normal limits.",
+          "location": "Heart",
+          "severity": "normal",
+          "confidence": 0.9
+        },
+        {
+          "id": 3,
+          "description": "The mediastinum appears normal in width.",
+          "location": "Mediastinum",
+          "severity": "normal",
+          "confidence": 0.95
+        },
+        {
+          "id": 4,
+          "description": "No obvious rib fractures are identified.",
+          "location": "Ribs",
+          "severity": "normal",
+          "confidence": 0.9
+        },
+        {
+          "id": 5,
+          "description": "No pleural effusion is evident.",
+          "location": "Pleural space",
+          "severity": "normal",
+          "confidence": 0.95
+        },
+        {
+          "id": 6,
+          "description": "No pneumothorax is identified.",
+          "location": "Pleural space",
+          "severity": "normal",
+          "confidence": 0.95
+        },
+        {
+          "id": 7,
+          "description": "No consolidation is seen.",
+          "location": "Lungs",
+          "severity": "normal",
+          "confidence": 0.95
+        },
+        {
+          "id": 8,
+          "description": "Lines/tubes are present, likely a central line.",
+          "location": "Mediastinum",
+          "severity": "normal",
+          "confidence": 0.9
+        }
+      ],
+      "overall_impression_category": "normal",
+      "missing_context": [
+        "Prior imaging for comparison",
+        "Complete clinical history"
+      ]
+    },
+    "report": "EXAMINATION: Chest X-ray, PA and lateral views.\n\nCLINICAL INDICATION: Chest pain, rule out acute coronary syndrome.\n\nCOMPARISON: None available.\n\nFINDINGS:\n1. The lungs are clear bilaterally.\n2. The heart size is within normal limits.\n3. The mediastinum is normal in width.\n4. No obvious rib fractures are identified.\n5. No pleural effusion is evident.\n6. No pneumothorax is identified.\n7. No consolidation is seen.\n8. A line/tube is present, likely a central line.\n\nIMPRESSION:\n1. No acute cardiopulmonary process identified.\n2. A line/tube is present, likely a central line.\n\nRECOMMENDATION: Consider follow-up with a cardiology consultation if chest pain persists.\n",
+    "triage": "ROUTINE",
+    "time_sensitivity": "Within 24 hours",
+    "warnings": [],
+    "pass1_time": 466.3604187965393,
+    "pass2_time": 160.30208563804626
+  },
+  {
+    "case": {
+      "path": "/kaggle/input/datasets/organizations/nih-chest-xrays/sample/sample/images/00006720_006.png",
+      "indication": "Pre-operative clearance for hip replacement"
+    },
+    "findings": {
+      "modality_detected": "Chest X-ray",
+      "anatomical_region": "Chest",
+      "image_quality": "adequate",
+      "quality_issues": [],
+      "comparison_available": false,
+      "findings": [
+        {
+          "id": 1,
+          "description": "Lines/tubes present, including endotracheal tube, nasogastric tube, and two central venous catheters.",
+          "location": "Throughout the chest",
+          "severity": "normal",
+          "confidence": 0.95
+        },
+        {
+          "id": 2,
+          "description": "The heart size appears mildly enlarged.",
+          "location": "Cardiac silhouette",
+          "severity": "mild",
+          "confidence": 0.8
+        },
+        {
+          "id": 3,
+          "description": "There is some increased opacity in the right lung field, potentially representing mild pulmonary edema or atelectasis.",
+          "location": "Right lung field",
+          "severity": "mild",
+          "confidence": 0.7
+        },
+        {
+          "id": 4,
+          "description": "No pneumothorax is identified.",
+          "location": "Pleural space",
+          "severity": "normal",
+          "confidence": 0.9
+        },
+        {
+          "id": 5,
+          "description": "No pleural effusion is identified.",
+          "location": "Pleural space",
+          "severity": "normal",
+          "confidence": 0.9
+        },
+        {
+          "id": 6,
+          "description": "No consolidation is identified.",
+          "location": "Lung parenchyma",
+          "severity": "normal",
+          "confidence": 0.9
+        },
+        {
+          "id": 7,
+          "description": "No rib fractures are identified.",
+          "location": "Ribs",
+          "severity": "normal",
+          "confidence": 0.9
+        },
+        {
+          "id": 8,
+          "description": "Mediastinal width appears within normal limits.",
+          "location": "Mediastinum",
+          "severity": "normal",
+          "confidence": 0.8
+        },
+        {
+          "id": 9,
+          "description": "No masses or nodules are identified.",
+          "location": "Lung parenchyma",
+          "severity": "normal",
+          "confidence": 0.9
+        }
+      ],
+      "overall_impression_category": "normal",
+      "missing_context": [
+        "Prior imaging for comparison",
+        "Complete clinical history"
+      ]
+    },
+    "report": "EXAMINATION: Chest X-ray\n\nCLINICAL INDICATION: Pre-operative clearance for hip replacement\n\nCOMPARISON: None available\n\nFINDINGS:\n\n1.  Lines/tubes are present throughout the chest, including an endotracheal tube, nasogastric tube, and two central venous catheters.\n2.  The heart size appears mildly enlarged.\n3.  There is some increased opacity in the right lung field, potentially representing mild pulmonary edema or atelectasis.\n4.  No pneumothorax is identified.\n5.  No pleural effusion is identified.\n6.  No consolidation is identified.\n7.  No rib fractures are identified.\n8.  Mediastinal width appears within normal limits.\n9.  No masses or nodules are identified.\n\nIMPRESSION:\n\n1.  Lines/tubes are present throughout the chest.\n2.  Mild cardiomegaly.\n3.  Possible mild pulmonary edema or atelectasis in the right lung field.\n4.  No pneumothorax or pleural effusion.\n5.  No consolidation.\n6.  No rib fractures.\n7.  Normal mediastinal width.\n8.  No masses or nodules.\n\nRECOMMENDATION: Follow-up chest X-ray is recommended in 6 months to assess for resolution of the right lung field opacity.\n",
+    "triage": "ROUTINE",
+    "time_sensitivity": "Within 24 hours",
+    "warnings": [],
+    "pass1_time": 529.9737510681152,
+    "pass2_time": 252.88089847564697
+  }
+]
