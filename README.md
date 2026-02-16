@@ -149,7 +149,7 @@ For a busy emergency department processing 200 chest X-rays daily:
 - **Kaggle Notebook**: https://www.kaggle.com/code/pramodmisra2020/radtriage-ai-radiology-triage-pipeline
 - **HuggingFace Model**: https://huggingface.co/pramodmisra/radtriage-ai-medgemma-4b
 - **Competition**: https://www.kaggle.com/competitions/med-gemma-impact-challenge
-- **Video Demo**: [Coming soon]
+- **Video Demo**: [https://youtu.be/ode8awvQZGU]
 
 ## Author
 
